@@ -1,0 +1,60 @@
+* {
+  font-size: 100%;
+  margin, padding: 0;
+}
+.card {
+  width: 360px;
+  margin: 100px auto;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 1px 3px 10px lightgray; */
+}
+.card img {
+  width: 100%;
+}
+
+.textbox {
+  padding: 15px 25px;
+  /* 25px 謎 */
+}
+
+.textbox h6 {
+  font-size: 18px;
+  /* margin-bottom: 30px; */
+  /* font-weight: 400; */
+}
+
+.textbox .title p {
+  padding: 5px 10px;
+  /* padding忘れてた！これを加えればよかった！！ */
+  background-color: #008888;
+  display: inline-block;
+  /* display: inline; */
+  color: white;
+  font-size: 14px;
+}
+
+/* .textbox, .footer .hashtag, .footer .date {
+  font-size: 14px;
+} */
+
+.bottom {
+  font-size: 14px;
+  text-align: right;
+}
+
+.bottom p {
+  display: inline-block;
+  /* 要素二つに直接指定して横並びにする。 */
+  /* display: flex; */
+  /* justify-content: right; */
+}
+
+.hashtag {
+  color: #008888;
+}
+.date {
+  margin-left: 20px;
+  /* paddingじゃなくてmarginやった */
+  /* padding-left: 20px; */
+  color: #888;
+}

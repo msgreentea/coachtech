@@ -1,0 +1,165 @@
+body {
+  font-size: 100%;
+  max-width: 1500px;
+  width: 100%;
+  color: #707070;
+}
+a, li {
+  text-decoration: none;
+  color: #707070;
+}
+p {
+  line-height: 25px;
+}
+.wrapper {
+  padding: 100px;
+}
+.container {
+  margin: 0 auto;
+  padding: 100px;
+  /* max-width: 1000spx; */
+}
+.content-title-en {
+  font-family: 'Indie Flower', cursive;
+  color: #B31667;
+  font-size: 14px;
+}
+.content-title {
+  font-size: 18px;
+  padding: 10px 0 20px 0;
+}
+#header {
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+#header .logo {
+  width: 100px;
+}
+ul {
+  display: flex;
+}
+nav li{
+  padding-left: 20px;
+}
+.pic-mainvisual {
+  width: 60%;
+  display: block;
+  margin: 0 0 0 auto;
+  position: relative;
+}
+#mainvisual .text {
+  position: absolute;
+  top: 20%;
+  left: 23%;
+}
+#mainvisual .text h3 {
+  font-family: 'Indie Flower', cursive;
+  color: #B31667;
+  font-size: 55px;
+  padding-bottom: 50px;
+}
+#mainvisual .text span {
+  color: #06A1B3;
+}
+#mainvisual .text h4 {
+  color: #B31667;
+  font-size: 1.15rem;
+  padding-bottom: 10px;
+}
+#mainvisual .text p {
+  font-size: 13px;
+}
+table tr:first-child, tr:last-child{
+  /* margin: 50px auto; */
+  margin: 10px 0;
+  border-top: solid 2px #CFCFCF;
+  border-bottom: solid 2px #CFCFCF;
+}
+table th {
+  padding: 20px 0;
+  font-weight: normal;
+}
+table tr:not(:first-child) {
+  border-top: solid 1px #CFCFCF;
+}
+table tr:last-child {
+  border-bottom: solid 1px #CFCFCF;
+}
+table .td-left {
+  background-color: #B31667;
+  color: white;
+  padding: 5px 10px;
+  width: 80px;
+  text-align: center;
+  display: block;
+  border-radius: 30px;
+  margin: 0 30px;
+}
+table .td-right {
+  padding-right: 200px;
+}
+#about {
+  background-color: #F5F5F5;
+}
+#about .content-title, #about .content-title-en {
+  text-align: center;
+}
+.about-flex {
+  display: flex;
+  justify-content: space-between;
+}
+#about .about-flex .text {
+  width: 45%;
+}
+#about .about-flex .text p {
+  padding-top: 10px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+#about img {
+  width: 40%;
+}
+#service .box {
+  display: grid;
+  grid-template: 
+  "box1 box2" 150px
+  "box1 box3" 150px
+  /350px 350px;
+}
+.box1 {
+  grid-area: box1;
+  background-color: #B31667;
+  padding: 40px 0;
+  text-align: center;
+}
+.box2 {
+  grid-area: box2;
+  background-color: #B35B8B;
+  display: flex;
+  padding: 20px;
+}
+.box3 {
+  grid-area: box3;
+  background-color: #B2889E;
+  display: flex;
+  padding: 20px;
+}
+#service .box img {
+  width: 100px;
+}
+#service .box .text {
+  color: white;
+  font-size: 12px;
+  width: 80%;
+  margin: 0 auto;
+}
+#service .box .text .title {
+  font-weight: bold;
+  font-size: 14px;
+}
+/* #service .box .text p {
+  text-align: start;
+} */

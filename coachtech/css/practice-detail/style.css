@@ -1,0 +1,13 @@
+a {
+  width: 200px;
+  padding: 10px 0;
+  color: white;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #ff5800, #8b00be);
+  text-align: center;
+  /* text-align:center 忘れてた */
+  text-decoration: none;
+  box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
+  margin: 100px auto;
+  display: block;
+}

@@ -1,0 +1,42 @@
+.grid {
+  display: grid;
+  grid-template: 
+  "box1 box3 box3 box5" 300px
+  "box2 box4 box4 box5" 300px
+  "box6 box6 box6 box5" 100px
+  "box7 box7 box8 ...." 200px
+  /2fr  2fr  2fr  1fr;
+}
+
+.box1 {
+  background-color: #FF5858;
+  grid-area: box1;
+}
+.box2 {
+  background-color: #FF6868;
+  grid-area: box2;
+}
+.box3 {
+  background-color: #FF7878;
+  grid-area: box3;
+}
+.box4 {
+  background-color: #FF8888;
+  grid-area: box4;
+}
+.box5 {
+  background-color: #FF9898;
+  grid-area: box5;
+}
+.box6 {
+  background-color: #FFA8A8;
+  grid-area: box6;
+}
+.box7 {
+  background-color: #FFB8B8;
+  grid-area: box7;
+}
+.box8 {
+  background-color: #FFC8C8;
+  grid-area: box8;
+}

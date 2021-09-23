@@ -1,0 +1,29 @@
+.thing {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img-elephant {
+  /* position: absolute; */
+}
+.text {
+  position: relative;
+  top: 170px;
+  left: 75px;
+}
+
+
+.relative {
+  position: relative;
+}
+.relative_img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+}
+.absolute {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  font-size: 30px;
+}

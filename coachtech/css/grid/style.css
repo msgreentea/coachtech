@@ -1,0 +1,49 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+  /* background-color: aquamarine; */
+  min-height: 100vh;
+  display: grid;
+  grid-template: 
+    "... .....  .....  .....  ...... ...... ..."  30px
+    "... header header header header header ..."  150px
+    "... .....  .....  .....  .....  .....  ..."  10px
+    "... left   .....  center .....  right  ..."   1fr
+    "... .....  .....  .....  .....  .....  ..."  10px
+    "... footer footer footer footer footer ..."  300px
+    "... .....  .....  .....  ...... ...... ..."  
+    /auto 150px auto minmax(300px,1fr) auto 200px auto;
+    /* 子要素に対してmarginを指定する必要がない。わかりやすい */
+}
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: center;
+}
+
+nav {
+  grid-area: left;
+}
+
+aside {
+  grid-area: right;
+}
+
+footer {
+  grid-area: footer;
+}
+
+@media screen and (max-width:1000px) {
+  body {
+    grid-template: 
+    "header" 150px
+    "center" 1fr
+    "left"
+    "right"
+    "footer" 300px
+    ;
+  }
+  
+}

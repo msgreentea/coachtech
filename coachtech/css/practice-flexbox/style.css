@@ -1,0 +1,49 @@
+* {
+  font-size: 100%;
+  margin, padding: 0;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 30%;
+  margin: 100px auto;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.card img {
+  width: 100%;
+}
+
+.textbox {
+  padding: 15px 25px;
+}
+
+.textbox h6 {
+  font-size: 18px;
+}
+
+.textbox .title p {
+  padding: 5px 10px;
+  background-color: #008888;
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+}
+
+.bottom {
+  font-size: 14px;
+  text-align: right;
+}
+
+.bottom p {
+  display: inline-block;
+}
+
+.hashtag {
+  color: #008888;
+}
+.date {
+  margin-left: 20px;
+  color: #888;
+}
