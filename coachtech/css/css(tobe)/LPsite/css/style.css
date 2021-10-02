@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 1500px;
+  width: 100%;
+  color: #707070;
+}
+a,
+li {
+  text-decoration: none;
+  color: #707070;
+}
+p {
+  line-height: 25px;
+}
+.container-wide {
+  margin: 0 auto;
+  padding: 50px 15%;
+}
+.container-narrow {
+  margin: 0 auto;
+  padding: 100px 20%;
+}
+.content-title-en {
+  font-family: "Indie Flower", cursive;
+  color: #b31667;
+  font-size: 14px;
+}
+.content-title {
+  font-size: 18px;
+  padding: 10px 0 20px 0;
+}
+#header {
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+#header .logo {
+  width: 100px;
+}
+ul {
+  display: flex;
+}
+nav li {
+  padding-left: 20px;
+}
+.pic-mainvisual {
+  width: 60%;
+  display: block;
+  margin: 0 0 0 auto;
+  position: relative;
+}
+#mainvisual .text {
+  position: absolute;
+  top: 20%;
+  left: 23%;
+}
+#mainvisual .text h3 {
+  font-family: "Indie Flower", cursive;
+  color: #b31667;
+  font-size: 55px;
+  padding-bottom: 50px;
+}
+#mainvisual .text span {
+  color: #06a1b3;
+}
+#mainvisual .text h4 {
+  color: #b31667;
+  font-size: 1.15rem;
+  padding-bottom: 10px;
+}
+#mainvisual .text p {
+  font-size: 13px;
+}
+#news table tr:first-child,
+#news tr:last-child {
+  border-top: solid 2px #cfcfcf;
+  /* border-bottom: solid 2px #cfcfcf; */
+}
+#news table th {
+  padding: 20px 0;
+  font-weight: normal;
+}
+#news table tr:not(:first-child) {
+  border-top: solid 1px #cfcfcf;
+}
+#news table tr:last-child {
+  border-bottom: solid 1px #cfcfcf;
+}
+#news table .td-left {
+  background-color: #b31667;
+  color: white;
+  padding: 5px 10px;
+  width: 100px;
+  text-align: center;
+  display: block;
+  border-radius: 30px;
+  margin: 0 30px;
+}
+#news table .td-right {
+  padding-right: 300px;
+}
+#about {
+  background-color: #f5f5f5;
+}
+#about .content-title,
+#about .content-title-en {
+  text-align: center;
+}
+.about-flex {
+  display: flex;
+  justify-content: space-between;
+}
+#about .about-flex .text {
+  width: 45%;
+}
+#about .about-flex .text p {
+  padding-top: 10px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+#about img {
+  width: 40%;
+}
+#service .box {
+  display: grid;
+  grid-template:
+    "box1 box2" 150px
+    "box1 box3" 150px
+    / 350px 350px;
+  /* grid-template-rows: 350px 350px; */
+  /* grid-template-columns: 150px 150px; */
+}
+.box1 {
+  grid-area: box1;
+  background-color: #b31667;
+  padding: 40px 0;
+  text-align: center;
+}
+.box2 {
+  grid-area: box2;
+  background-color: #b35b8b;
+  display: flex;
+  padding: 20px;
+}
+.box3 {
+  grid-area: box3;
+  background-color: #b2889e;
+  display: flex;
+  padding: 20px;
+}
+#service .box img {
+  width: 100px;
+}
+#service .box .text {
+  color: white;
+  font-size: 12px;
+  width: 80%;
+  margin: 0 auto;
+}
+#service .box .text .title {
+  font-weight: bold;
+  font-size: 14px;
+}
+#blog {
+  background-color: #f5f5f5;
+}
+.cards {
+  display: flex;
+  width: 300px;
+}
+.card {
+  height: 350px;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  margin-right: 40px;
+}
+.card:last-of-type {
+  margin-right: 0;
+}
+.card img {
+  width: 300px;
+  display: inline-block;
+  border-radius: 20px 20px 0 0;
+}
+.card-title {
+  background-color: #b31667;
+  color: white;
+  display: block;
+  width: 25%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  top: 0;
+  border-radius: 20px 0 0 0;
+}
+.card .text {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.card .text .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: auto;
+}
+#blog .btn {
+  margin: 30px auto 0 auto;
+  display: block;
+  width: 200px;
+  border: 1px solid #b31667;
+  color: #b31667;
+  border-radius: 30px;
+  background-color: white;
+  padding: 20px 50px;
+}
+#company table {
+  border: 1px solid #cfcfcf;
+  width: 100%;
+}
+#company table tr {
+  border-bottom: 1px solid #cfcfcf;
+}
+#company table th {
+  width: 30px;
+  border-right: 1px solid #cfcfcf;
+  background-color: #f5f5f5;
+  padding: 20px 50px 20px 10px;
+  text-align: left;
+}
+#company table td {
+  width: 70%;
+  padding-left: 10px;
+}
+#info {
+  display: flex;
+  width: 100%;
+}
+#info .info-img {
+  position: relative;
+}
+#info .info-img p {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  vertical-align: middle;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
