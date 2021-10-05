@@ -1,0 +1,23 @@
+dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+dt,
+dd {
+  padding: 25px;
+  border-top: 1px solid black;
+}
+dt:last-child,
+dd:last-child {
+  border-bottom: 1px solid black;
+}
+dt {
+  width: 30%;
+  text-align: center;
+  font-weight: bold;
+}
+dd {
+  width: 70%;
+  padding-left: 0;
+}
+

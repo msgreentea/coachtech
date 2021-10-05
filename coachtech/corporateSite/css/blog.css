@@ -1,0 +1,12 @@
+.blog-content img {
+  width: 390px;
+}
+.blog-contents {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.blog-content {
+  padding-top: 30px;
+}

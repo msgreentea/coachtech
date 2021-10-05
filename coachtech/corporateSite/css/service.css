@@ -1,0 +1,24 @@
+
+.service-content img {
+  width: 290px;
+}
+.service-contents dl {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+}
+.service-contents dl:first-child {
+  border-top: 1px solid black;
+}
+dl dt {
+  width: 25%;
+  margin: 20px auto 25px 0;
+}
+dl dd {
+  width: 75%;
+  padding: 5px 20px;
+  margin: 20px auto;
+}
+dl dd h4 {
+  font-size: 24px;
+}

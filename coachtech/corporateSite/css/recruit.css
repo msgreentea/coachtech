@@ -1,0 +1,22 @@
+.recruit-title {
+  font-size: 26px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 15px;
+}
+th {
+  width: 30%;
+  background-color: #f5f6f9;
+}
+td {
+  width: 70%;
+}

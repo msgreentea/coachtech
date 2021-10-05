@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+a:hover {
+  opacity: 0.7;
+}
+p {
+  line-height: 27px;
+}
+.section-title {
+  font-size: 30px;
+  padding-bottom: 35px;
+}
+.wrapper {
+  padding: 85px 110px;
+}
+.btn {
+  display: block;
+  background-color: #cd0323;
+  color: white;
+  width: 300px;
+  padding: 15px 30px;
+  font-weight: bold;
+  text-align: center;
+  /* margin: 45px auto; */
+}
+.btn-center {
+  width: 300px;
+  margin: 45px auto 0 auto;
+}
+
+#header {
+  height: 70px;
+  /* line-height: 70px; */
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
+}
+#header ul {
+  display: flex;
+  font-weight: bold;
+}
+#header ul li:not(:first-child) {
+  padding-left: 30px;
+}
+#header h1 {
+  font-size: 24px;
+}
+#mainvisual {
+  background: url(../img/mv.png) center/cover;
+  /* 背景にせずにposiionで画像の上に文字置いてた。避けれた */
+  width: 100%;
+  height: 635px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-items 縦の中央寄せ！line-height以外忘れる */
+  color: white;
+}
+#mainvisual h2 {
+  font-size: 50px;
+}
+#mainvisual .mv-p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+.box {
+  height: 305px;
+  background-color: #222222;
+  color: white;
+}
+#service .service-contents {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  /* width: 40%; */
+}
+#service .service-content {
+  width: 49%;
+  /* ↑これcontentsの方に指定してた */
+  margin: 20px 0;
+}
+#service .service-content img {
+  width: 600px;
+}
+
+#service h4 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+#news {
+  background-color: #222222;
+  color: white;
+}
+#news .news-top {
+  display: flex;
+  justify-content: space-between;
+}
+#news .btn-news {
+  margin: 0;
+  align-items: center;
+  height: 35px;
+}
+#news dl {
+  background-color: white;
+  color: black;
+  flex-wrap: wrap;
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#news dt {
+  width: 10%;
+  padding: 25px;
+}
+#news dd {
+  width: 90%;
+  padding: 25px;
+  font-weight: bold;
+}
+#blog .blog-content img {
+  width: 390px;
+}
+#blog .blog-contents {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.link {
+  display: block;
+  width: 50%;
+  font-size: 24px;
+  text-align: center;
+  padding: 100px;
+  color: white;
+  font-weight: bold;
+}
+#aboutUs {
+  background-color: #cd0323;
+}
+#info {
+  background-color: #222222;
+}
+#contact {
+  background-color: #f5f6f9;
+  text-align: center;
+  padding: 90px 0 80px 0;
+}
+#footer {
+  background-color: #222222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 100px;
+}
+#footer p {
+  line-height: 60px;
+}
+#footer ul {
+  display: flex;
+}
+#footer nav a {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 1px solid white;
+}
+#footer nav a:not(:first-child) {
+}
