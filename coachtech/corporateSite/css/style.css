@@ -197,3 +197,6 @@ p {
 }
 #footer nav a:not(:first-child) {
 }
+@media screen and (max-width:768px) {
+  
+}
