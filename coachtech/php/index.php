@@ -18,19 +18,17 @@
       <th>8</th>
       <th>9</th>
     </tr>
+    <?php
+
+    for ($a = 1; $a <= 9; $a++) {
+      echo '<br />';
+      for ($b =1; $b <= 9; $b++) {
+        echo '<br />' . $a * $b . '<br />';
+      }
+      echo '<br />';
+    }
+    ?>
   </table>
 </body>
 </html>
-<?php
-
-for ($a = 1; $a <= 9; $a++) {
-  echo '<br />';
-  for ($b =1; $b <= 9; $b++) {
-    echo '<br />' . $a * $b . '<br />';
-  }
-  echo '<br />';
-}
-
-
-?>
 
